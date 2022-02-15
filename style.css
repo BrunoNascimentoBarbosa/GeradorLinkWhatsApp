@@ -1,31 +1,40 @@
 body{
     background-color: #4AA984;
+
 }
 h1{
     color: white;
+
 }
 
 h5,h4{
     color:#fafafa;
+
 }
 p {
     color: #fafafa;
+
 }
 
 #link-what {
     display: none;
-     
+      
 }
 
 #valorDigitado{
-    width: 200px;
-    height: 90px;
+    color: white;
+    width: 70%;
+    height: 40px;
     border-radius: 10px;
     margin-bottom: 10px;
+    background-color: black;
+
 }
+
 #img-what{
     margin-top: -5px;
     border-radius: 10px;
+
 }
 #banner {
      width: 400px;
@@ -35,6 +44,7 @@ p {
 
 #logo-what{
     width: 80px;
+
 }
 
 #texto-div {
@@ -45,15 +55,30 @@ p {
 
 #texto {
     font-size: 10px;
+
 }
 
 .counter{
     text-align: center;
     font-size: 100px;
-  }
+
+}
 
 #bnt {
     width: 100%;
+     
+}
+#bnt_new_link{
+    display: none;
+
+}
+#copiarLink {
+    width: 20%;
+    margin-left: 10px;
+     
 }
 
+#footer {
+    margin-top: 350px;
+}
  

@@ -21,7 +21,8 @@
               <div class="col">
                 <h1>Gerador de link Grátis<br> para whatsapp                 <img id="logo-what" src="WhatsApp-Logo.png">
                 </h1>
-        <form>
+        <form >
+        <div id="form_01">
         <labe for="numero" name="numero"> Qual o seu número?</labe>
         
          <input class="form-control"  type="tel" name="telefone" id="telefone" placeholder="(DDD) 0 0000-0000 " aria-label="default input example">
@@ -30,23 +31,25 @@
             <label for="exampleFormControlTextarea1" class="form-label" name="msg" id="msg">Mensagem</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Olá me chamo Bruna quero fazer um pedido."></textarea>
           </div>
+        </div>  
           <div id="link-what">
+            <hr>
             <span>Seu link foi gerado com sucesso!</span> 
-            <img src="icons8-ok.png">
+            <img src="check-2.png">
             <br>
             <input id="valorDigitado" valor="">
             <button onclick="copiarLink()" type="submit" class="btn btn-primary"> Copiar link</button>
             </div> 
-            <button id="bnt" type="submit" class="btn btn-primary">Criar um novo link </button>
+         <button id="bnt_new_link" type="submit" class="btn btn-primary">Criar um novo link </button> 
   
-          <button id="bnt" type="submit" onclick = "capturar(event) " class="btn btn-warning">Criar o link </button>
+         <button id="bnt" type="submit" onclick = "capturar(event) " class="btn btn-warning">Criar o link </button>
           
-    </form>
+     </form>
 
-              </div>
-              <div class="col">
-                <div id="img-what">
-                <img id="banner" src="man.png" class="img-fluid" alt="...">         
+               </div>
+               <div class="col">
+               <div id="img-what">
+               <img id="banner" src="man.png" class="img-fluid" alt="...">         
                 
                 <div id="texto-div">
                 <h4>Como funciona</h4>
@@ -60,22 +63,16 @@
                 </p>
               </div>
                
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-                </div>    
+             </div>    
               </div>
             </div>
 
 
         
       </div>
-      <hr>
-      <footer>
+      
+      <footer id="footer">
+        <hr>
       <p style="text-align: center;">Desenvolvido | Bruno Nascimento</p>
       <a href="#">Políticas de Privacidade</a>
       <p> </p>
